@@ -1,0 +1,15 @@
+.logo-img{
+    width: 100px;
+}
+.first-menu a:link, a:visited {
+    color: orange;
+}
+#hero-banner{
+    width:100%;
+    background-image: url(../images/rivers.jpg);
+    height: 1500px;
+    background-repeat: no-repeat;
+}
+#hero-image{
+    display: none;
+}
