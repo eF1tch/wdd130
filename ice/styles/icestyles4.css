@@ -1,0 +1,31 @@
+body {
+    background-color: #5ca1d7;
+}
+.top {
+    color: white;
+    text-align: center;
+}
+.top h1:hover{
+    color: black;
+}
+.list {
+    margin: 0 auto;
+    width:60%;
+}
+#heroimg {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+}
+blockquote {
+    color: white;
+    font-size: 1.7em;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 5% 5% 5% 5%;
+    
+}
+.lowtext {
+    color: black;
+    text-align: center;
+}

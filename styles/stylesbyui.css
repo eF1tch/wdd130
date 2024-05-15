@@ -1,8 +1,19 @@
+/* * {
+    border: 2px solid blue;
+} */
+body {
+    text-align: center;
+    margin: 0;
+}
 nav, footer {
     background-color: steelblue;
     color: white;
-    /* To define specific sides, you can add 4 different numbers that pertain to the 1 top 2 right 3 bottom 4 left */
     padding: 10px;
+}
+main p {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
 }
 footer p {
     font-size: 20px;
@@ -11,4 +22,10 @@ footer p {
 a:hover {
     background-color: white;
     color: steelblue;
+}
+img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+
 }
