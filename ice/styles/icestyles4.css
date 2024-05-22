@@ -9,6 +9,7 @@ body {
     color: black;
 }
 .list {
+    text-align: center;
     margin: 0 auto;
     width:60%;
 }
