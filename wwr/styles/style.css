@@ -13,6 +13,8 @@ h2 {
 }
 #logo_link {
     padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 
 #content {
@@ -21,10 +23,16 @@ h2 {
 }
 
 header {
+    display: grid;
+    grid-template-columns: 150px auto;
     background-color: white;
     padding: 10px 0;
 }
 
+nav {
+    display: flex;
+    justify-content: space-around;
+}
 nav a {
     text-align: center;
     color: #023047; 
@@ -53,6 +61,10 @@ nav a:hover {
 
 #hero-img {
     width: 100%;
+}
+
+.mountains{
+    margin: 100px 0;
 }
 
 .rivers-card, .camping-card, .rapids-card{
